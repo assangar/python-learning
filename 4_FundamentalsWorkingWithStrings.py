@@ -50,6 +50,7 @@ my_string = "Hallo this is a test"
 my_int = 12
 print(my_string+str(my_int))
 
+<<<<<<< HEAD
 """
 Streamlining the print statement
 """
@@ -63,3 +64,39 @@ print("The number",num_heads," the second number is", num_arms)
 print("The number {} the second number is {}".format(num_arms,num_heads))
 
 #page 43
+=======
+
+"""
+Find Strings
+"""
+
+my_string = "Hallo this is a test"
+print(my_string.find("is"))
+
+"""
+Exercises
+"""
+
+"""
+In one line, display the result of trying to find() the substring a in the string AAA
+the result should be -1
+"""
+
+print("AAA".find("A"))
+
+"""
+2. Create a string object that contains the value "version 2.0" find() the first occurrence
+of the number 2.0 inside of this string by first creating a "float" object that stores the
+value 2.0 as a floating-point number, then converting that object to a string using the
+str() function
+"""
+
+my_string = "version 2.0"
+my_float = float(my_string[my_string.find("2.0")])
+print("This is the extracted number: ", my_float)
+
+"""
+3. Write and test a script that accepts user input using raw_input(), then displays the
+result of trying to find() a particular letter in that input
+"""
+>>>>>>> 3b76156ed28cb4033db8434e151003de2ebf609d
