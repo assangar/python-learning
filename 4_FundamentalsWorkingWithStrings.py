@@ -49,3 +49,17 @@ print("Excersise 3")
 my_string = "Hallo this is a test"
 my_int = 12
 print(my_string+str(my_int))
+
+"""
+Streamlining the print statement
+"""
+
+name = "Anant Sangar"
+
+num_heads = 2
+num_arms = 3
+
+print("The number",num_heads," the second number is", num_arms)
+print("The number {} the second number is {}".format(num_arms,num_heads))
+
+#page 43
